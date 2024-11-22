@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function Index() {
-  const DOMINOS = [[6, 1], [4, 3], [5, 1], [3, 4], [1, 1], [3, 4], [1, 2]]
+  const DOMINOS = [[1, 2], [2, 4], [5, 5], [8, 7], [9, 3], [3, 6], [1, 9]]
   const [dominos, setDominos] = useState<number[][]>([...DOMINOS])
 
 
